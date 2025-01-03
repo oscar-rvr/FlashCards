@@ -5,17 +5,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String cardInput ="";
-        String definitionInput ="";
+        String term="";
+        String definition="";
+        String answer="";
 
-        System.out.println("Card:");
-        cardInput = scan.nextLine();
-        System.out.println(cardInput);
+        term = scan.nextLine();
+        definition = scan.nextLine();
+        answer = scan.nextLine();
+        scan.close();
+        if(definition.equals(answer)){
+            System.out.println("Your answer is right!");
+        }else{
+            System.out.println("Your answer is wrong...");
+        }
 
 
-        System.out.println("Definition:");
-        definitionInput = scan.nextLine();
-        System.out.println(definitionInput);
+
 
     }
 }
