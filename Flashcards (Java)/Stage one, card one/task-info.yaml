@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/flashcards/Main.java
+    visible: true
+    learner_created: false
+  - name: test/FlashcardsTest.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/44/stages/232/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 03 Jan 2025 21:55:29 UTC"
+record: 1

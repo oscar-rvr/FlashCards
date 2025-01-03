@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-03T21:55:29" hostname="C13354" time="0.067">
+  <properties/>
+  <testcase name="start" classname="FlashcardsTest" time="0.067"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Card:
+> brusque
+brusque
+Definition:
+> short and abrupt
+short and abrupt
+?[1;31m
+Start test 2?[0m
+Card:
+> (a + b)^2
+(a + b)^2
+Definition:
+> a^2 + b^2 + 2ab
+a^2 + b^2 + 2ab
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
